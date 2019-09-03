@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Omicron CEP</string>
+    <string name="app_author">Fábio Pichler</string>
+    <string name="splash_author">Fábio Pichler\nwww.fabiopichler.net</string>
+</resources>

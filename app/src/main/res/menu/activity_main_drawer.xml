@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuCepView"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Pesquisar por CEP"
+            android:checkable="false" />
+
+        <item
+            android:id="@+id/menuAddressView"
+            android:icon="@drawable/ic_location_searching_black_24dp"
+            android:title="Pesquisar por endereço"
+            android:checkable="false" />
+    </group>
+
+    <item android:title="Ajuda">
+        <menu>
+            <item
+                android:id="@+id/menuItemWebsite"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Visitar o website oficial" />
+
+            <item
+                android:id="@+id/menuItemFacebook"
+                android:icon="@drawable/ic_thumb_up_black_24dp"
+                android:title="Curtir página no Facebook" />
+
+            <item
+                android:id="@+id/menuItemTwitter"
+                android:icon="@drawable/twitter"
+                android:title="Perfil no Twitter" />
+
+            <item
+                android:id="@+id/menuItemAbout"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Sobre o App" />
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/menuItemExit"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Sair"
+            android:checkable="false" />
+    </group>
+</menu>
