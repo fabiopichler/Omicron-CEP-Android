@@ -32,7 +32,8 @@
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_centerInParent="true"
-            app:srcCompat="@drawable/omicroncep" />
+            app:srcCompat="@drawable/ic_omicroncep_logo_256"
+            android:tint="#fff" />
 
         <TextView
             android:layout_width="fill_parent"

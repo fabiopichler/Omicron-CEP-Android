@@ -12,7 +12,8 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="64dp"
         android:layout_height="64dp"
-        app:srcCompat="@drawable/omicroncep"
+        app:srcCompat="@drawable/ic_omicroncep_logo_256"
+        android:tint="#fff"
         android:layout_gravity="center" />
 
     <TextView
