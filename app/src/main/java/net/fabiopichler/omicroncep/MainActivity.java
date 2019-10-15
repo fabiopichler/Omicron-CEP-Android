@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.menuItemWebsite:
-                openURL("https://fabiopichler.net/");
+                openURL("https://fabiopichler.net/omicron-cep");
                 break;
 
             case R.id.menuItemFacebook:
