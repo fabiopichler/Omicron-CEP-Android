@@ -35,6 +35,11 @@ public class MobileAppInterface {
     }
 
     @JavascriptInterface
+    public String getVersionName() {
+        return BuildConfig.VERSION_NAME;
+    }
+
+    @JavascriptInterface
     public void showToast(String toast) {
         Toast.makeText(mMainActivity, toast, Toast.LENGTH_SHORT).show();
     }
